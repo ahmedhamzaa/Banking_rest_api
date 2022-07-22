@@ -90,7 +90,7 @@ public class RegistrationValidator {
 	 */
 	public static boolean validateContact(String mobileNumber) {
 		boolean flag = false;
-		if (mobileNumber.length()==10) {
+		if (mobileNumber.length()==8) {
 			if (mobileNumber.matches("[0-9]*")) {
 				flag = true;
 			}	
